@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        .container{
+            border: 5px solid saddlebrown;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: space-between;
+            gap: 5px;
+            padding: 5px;
+        }
+        .food{
+            border: 2px solid greenyellow;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+
+        }
+        @media screen and (min-width:576.1px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="img/food.jpg"]+h2.title+h2.price{Price :/$$00}+btn.bttn{Buy Now}+p.des>lorem20 -->
+    <div class="container">
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 100</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis incidunt quam et iure labore ab assumenda officia ipsum earum tempore.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 200</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Ducimus modi recusandae fugit quod incidunt id. Inventore facilis deleniti consequatur sit tenetur amet atque laboriosam unde repellat, voluptatibus quae!</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 300</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Accusantium asperiores nam reprehenderit magnam, expedita, aut earum atque aspernatur sapiente explicabo quaerat ipsum, veritatis natus inventore tempora fugit quo.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 400</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Sunt enim at veniam nesciunt officia ullam soluta voluptates velit, maiores nisi officiis consectetur doloremque! Corporis, rerum! Velit, dolorem aspernatur!</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 500</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Soluta eius ea similique cum esse veniam dolorem consectetur assumenda ullam obcaecati. Quis modi accusamus dolores perferendis animi qui exercitationem?</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 600</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Dignissimos eius expedita earum adipisci, corporis, dicta suscipit aperiam, voluptas modi quos at veniam ipsum voluptatum quas necessitatibus. Ipsa, sed!</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 700</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Perspiciatis obcaecati odio praesentium nisi, distinctio sunt accusantium repudiandae ab nihil, earum fugiat nesciunt nobis cum ducimus, at ratione ea.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 800</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Neque accusantium dolorem autem obcaecati distinctio blanditiis consequatur, accusamus illum voluptas, earum deleniti voluptatibus veniam, ipsa atque esse? Sint, perspiciatis.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 900</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Ad totam ipsa culpa aliquam. Illo fugit alias autem error saepe harum incidunt, iste dolorum laboriosam ullam quas possimus excepturi?</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 1000</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Animi reprehenderit suscipit numquam eius culpa atque iure quos ea optio ratione, veniam odit molestiae? Nostrum numquam labore temporibus veritatis.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 1100</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Laudantium quia possimus id corrupti eveniet, laboriosam minus alias tempora minima. Unde qui quidem laborum in dolorem quam odit omnis.</p>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h2 class="title"></h2>
+            <h2 class="price">Price :$ 1200</h2>
+            <button class="bttn">Buy Now</button>
+            <p class="des">Deserunt velit reiciendis veritatis incidunt, molestiae voluptatibus officiis facere nobis illum! Ad nemo quia, deserunt facilis recusandae obcaecati repellat blanditiis?</p>
+        </div>
+    </div>
+</body>
+</html>
